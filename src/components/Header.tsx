@@ -94,7 +94,7 @@ const Header = () => {
     </Box>
   );
   return (
-    <div className="container mx-auto border border-red-700 p-3 flex justify-between items-center">
+    <div className="container mx-auto  p-3 flex justify-between items-center sticky top-0 left-0 bg-white opacity-95">
       <div className="flex gap-2 items-center">
         <div>
           <Button onClick={toggleDrawer(true)}>
