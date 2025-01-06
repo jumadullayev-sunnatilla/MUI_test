@@ -128,7 +128,7 @@ const ProductCard = () => {
   // Loading skeletons
   if (loading) {
     return (
-      <div className="container mx-auto flex flex-wrap gap-3 justify-between">
+      <div className="container mx-auto flex flex-wrap gap-3 justify-between px-10">
         {Array(8)
           .fill(null)
           .map((_, index) => (
@@ -148,7 +148,7 @@ const ProductCard = () => {
 
   // Render product list
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-10">
       <h1 className="text-2xl font-bold mb-4">Products</h1>
       <div className="flex justify-between gap-3 flex-wrap">{ProductCard}</div>
     </div>
